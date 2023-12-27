@@ -11,8 +11,13 @@ span{
     background-color: aquamarine;
 }
 
-a{
-    background-color: wheat;
+#DC{
+    background-color: rgb(66, 63, 240);
+    color: rgb(255, 255, 255);
+}
+#YT{
+    background-color: red;
+    color: white;
 }
 
 h2{
@@ -21,4 +26,7 @@ h2{
 
 *{
     padding: 5px;
+}
+hr{
+    background-color: black;
 }
