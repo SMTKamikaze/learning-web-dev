@@ -3,10 +3,12 @@ body {
     color: rgb(69, 52, 223);
     
 }
+.center{
+    text-align: center;
+}
 
 h1 {
     background-color: rgb(101, 178, 241);
-    text-align: center;
 }
 span{
     background-color: aquamarine;
@@ -23,6 +25,8 @@ span{
 
 h2{
     background-color: aqua;
+    margin: 40px;
+    padding: 20px;
 }
 
 *{
