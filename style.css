@@ -9,6 +9,9 @@ body {
 
 h1 {
     background-color: rgb(101, 178, 241);
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 span{
     background-color: aquamarine;
