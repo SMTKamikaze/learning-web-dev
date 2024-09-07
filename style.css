@@ -1,52 +1,112 @@
-body {
-    background-color: rgb(27, 29, 47);
-    color: rgb(69, 52, 223);
-    
+css
+/* Catppuccin Mocha Palette */
+:root {
+  --background: #1e1e2e; /* Base background */
+  --mantle: #181825;     /* Slightly darker background */
+  --crust: #11111b;     /* Even darker background */
+  --text: #cdd6f4;      /* Primary text color */
+  --subtext1: #bac2de;   /* Secondary text color */
+  --subtext0: #a6adc8;   /* Tertiary text color */
+  --overlay2: #9399b2;   /* Overlay color */
+  --overlay1: #7f849c;   /* Lighter overlay color */
+  --overlay0: #6c7086;   /* Even lighter overlay color */
+  --surface2: #585b70;   /* Surface color */
+  --surface1: #45475a;   /* Lighter surface color */
+  --surface0: #313244;   /* Even lighter surface color */
+  --base: #f5e0dc;      /* Base accent color */
+  --mantle: #f2cdcd;     /* Slightly darker accent */
+  --crust: #e8a2af;     /* Even darker accent */
 }
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: sans-serif; 
+}
+
+h1, h2 {
+  color: var(--base); 
+}
+
+a {
+  color: var(--crust);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--mantle);
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  border: 4px solid var(--surface0); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Previous styles - you can keep or modify these as needed */
 .center{
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    background-color: rgb(101, 178, 241);
-    border-radius: 20px;
-    margin-left: 70px;
-    margin-right: 70px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: var(--base); /* Use Catppuccin color */
+  border-radius: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  padding: 10px; /* Add some padding */
 }
+
 span{
-    background-color: aquamarine;
+  background-color: var(--crust); /* Use Catppuccin color */
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #DC{
-    background-color: rgb(66, 63, 240);
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
+  background-color: var(--surface2); /* Use Catppuccin color */
+  color: var(--text); /* Use Catppuccin color */
+  border-radius: 20px;
+  padding: 10px;
 }
+
 #YT{
-    background-color: red;
-    color: white;
-    border-radius: 20px;
+  background-color: var(--crust); /* Use Catppuccin color */ 
+  color: var(--text); /* Use Catppuccin color */
+  border-radius: 20px;
+  padding: 10px;
 }
+
 #TW{
-    background-color: rgb(10, 10, 10);
-    color: white;
-    border-radius: 20px;
+  background-color: var(--mantle); /* Use Catppuccin color */
+  color: var(--text); /* Use Catppuccin color */
+  border-radius: 20px;
+  padding: 10px;
 }
+
 h2{
-    background-color: aqua;
-    margin: 40px;
-    padding: 20px;
-    border-radius: 20px;
+  background-color: var(--surface1); /* Use Catppuccin color */
+  color: var(--text); /* Use Catppuccin color */
+  margin: 40px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 *{
-    padding: 5px;
+  padding: 5px;
 }
+
 hr{
-    background-color: black;
-    border-radius: 6px;
+  background-color: var(--surface0); /* Use Catppuccin color */
+  border: none; /* Remove default border */
+  height: 2px; /* Make it thinner */
+  border-radius: 6px;
 }
+
 div{
-    
+
 }
